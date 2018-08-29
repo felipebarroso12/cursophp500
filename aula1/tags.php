@@ -8,6 +8,7 @@
 	p{
 		font-size: 16px;
 		font-family: helvetica;
+		color: #2b2929;
 	}
 </style>
 <h1> Turma - 6523 </h1>

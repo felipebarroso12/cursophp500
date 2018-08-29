@@ -35,4 +35,5 @@
 ?>
 <script type="text/javascript">
 	console.log('Ola')
+		let ola = 'oi'
 </script>
