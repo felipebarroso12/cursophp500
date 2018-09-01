@@ -4,12 +4,27 @@ $dia = isset($_POST['dia']) ? $_POST['dia'] : '';
 $mes = isset($_POST['mes']) ? $_POST['mes'] : '';
 $ano = isset($_POST['ano']) ? $_POST['ano'] : '';
 ?>
+<style>
+	form div{
+		display: block;
+	}
+</style>
 <form action="helloPost.php" method="post">
-	<label>Nome</label><input type="text" name="nome">
-	<label>Dia</label><input type="numer" name="dia">
-	<label>Mês</label><input type="numer" name="mes">
-	<label>Ano</label><input type="numer" name="ano">
-	<button type="submit">Enviar</button>
+	<div>
+		<label>Nome</label><input type="text" name="nome">
+	</div>
+	<div>		
+		<label>Dia</label><input type="numer" name="dia">
+	</div>
+	<div>		
+		<label>Mês</label><input type="numer" name="mes">
+	</div>
+	<div>
+		<label>Ano</label><input type="numer" name="ano">
+	</div>
+	<div>
+		<button type="submit">Enviar</button>
+	</div>
 </form>
 
 <?= $nome ?>
